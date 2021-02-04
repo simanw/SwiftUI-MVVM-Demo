@@ -14,7 +14,7 @@ I mostly focused on the architecture and data flow design.
 ## Architecture
 I used MVVM + Combine architecture.
 
-![](./Resources/achitecture.png)
+![](./EmployeeList/Resources/achitecture.png)
 
 ### Data Access Layer
 
@@ -48,9 +48,9 @@ Views are independent from business logic. Side effects are triggered by the vie
 
 ***Yet another informal data flow chart***
 
-![](./Resources/employessListDataFlow.png)
+![](./EmployeeList/Resources/employessListDataFlow.png)
 
-![](./Resources/imageDataFlow.png)
+![](./EmployeeList/Resources/imageDataFlow.png)
 
 # Copied-in code or copied-in dependencies
 I copied the following code snippets for making mock APIService in unit tests.

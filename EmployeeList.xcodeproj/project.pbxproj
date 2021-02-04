@@ -144,6 +144,7 @@
 				F382495D25C4F16C00E6B92E /* EmployeeList */,
 				F382497425C4F16F00E6B92E /* EmployeeListTests */,
 				F382495C25C4F16C00E6B92E /* Products */,
+				F34349FC25CB2E9600312F72 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,7 +173,6 @@
 				F382496925C4F16F00E6B92E /* LaunchScreen.storyboard */,
 				F382496C25C4F16F00E6B92E /* Info.plist */,
 				F382496625C4F16F00E6B92E /* Preview Content */,
-				F34349FC25CB2E9600312F72 /* README.md */,
 			);
 			path = EmployeeList;
 			sourceTree = "<group>";
