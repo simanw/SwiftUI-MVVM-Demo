@@ -7,13 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34349FA25CB2BA500312F72 /* iu.png in Resources */ = {isa = PBXBuildFile; fileRef = F34349F925CB2BA500312F72 /* iu.png */; };
+		F34349FB25CB2BA500312F72 /* iu.png in Resources */ = {isa = PBXBuildFile; fileRef = F34349F925CB2BA500312F72 /* iu.png */; };
+		F34349FD25CB2E9600312F72 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F34349FC25CB2E9600312F72 /* README.md */; };
+		F3434A0725CBA80800312F72 /* CustomImageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3434A0625CBA80800312F72 /* CustomImageViewModelTests.swift */; };
+		F3434A0925CBB05800312F72 /* MockImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3434A0825CBB05800312F72 /* MockImageService.swift */; };
 		F382495F25C4F16C00E6B92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382495E25C4F16C00E6B92E /* AppDelegate.swift */; };
 		F382496125C4F16C00E6B92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382496025C4F16C00E6B92E /* SceneDelegate.swift */; };
-		F382496325C4F16C00E6B92E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382496225C4F16C00E6B92E /* ContentView.swift */; };
 		F382496525C4F16F00E6B92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F382496425C4F16F00E6B92E /* Assets.xcassets */; };
 		F382496825C4F16F00E6B92E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F382496725C4F16F00E6B92E /* Preview Assets.xcassets */; };
 		F382496B25C4F16F00E6B92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F382496925C4F16F00E6B92E /* LaunchScreen.storyboard */; };
 		F382497625C4F16F00E6B92E /* EmployeeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382497525C4F16F00E6B92E /* EmployeeListTests.swift */; };
+		F382498C25C4FD7B00E6B92E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382498B25C4FD7B00E6B92E /* APIRequest.swift */; };
+		F382498D25C4FD7B00E6B92E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382498B25C4FD7B00E6B92E /* APIRequest.swift */; };
+		F382498F25C4FE3900E6B92E /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382498E25C4FE3900E6B92E /* APIServiceError.swift */; };
+		F382499025C4FE3900E6B92E /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382498E25C4FE3900E6B92E /* APIServiceError.swift */; };
+		F382499825C511DD00E6B92E /* EmployeesAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382499725C511DD00E6B92E /* EmployeesAPIService.swift */; };
+		F382499925C511DD00E6B92E /* EmployeesAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382499725C511DD00E6B92E /* EmployeesAPIService.swift */; };
+		F382499B25C5182900E6B92E /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382499A25C5182900E6B92E /* ImageService.swift */; };
+		F382499C25C5182900E6B92E /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382499A25C5182900E6B92E /* ImageService.swift */; };
+		F382499F25C51DA000E6B92E /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382499E25C51DA000E6B92E /* EmployeeListViewModel.swift */; };
+		F38249A025C51DA000E6B92E /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382499E25C51DA000E6B92E /* EmployeeListViewModel.swift */; };
+		F38249A325C5257200E6B92E /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249A225C5257200E6B92E /* EmployeeListView.swift */; };
+		F38249A425C5257200E6B92E /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249A225C5257200E6B92E /* EmployeeListView.swift */; };
+		F38249A625C526CE00E6B92E /* EmployeeListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249A525C526CE00E6B92E /* EmployeeListRow.swift */; };
+		F38249A725C526CE00E6B92E /* EmployeeListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249A525C526CE00E6B92E /* EmployeeListRow.swift */; };
+		F38249A925C5425E00E6B92E /* OnDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249A825C5425E00E6B92E /* OnDiskCache.swift */; };
+		F38249AA25C5425E00E6B92E /* OnDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249A825C5425E00E6B92E /* OnDiskCache.swift */; };
+		F38249AC25C79BF500E6B92E /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249AB25C79BF500E6B92E /* CustomImageView.swift */; };
+		F38249AD25C79BF500E6B92E /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249AB25C79BF500E6B92E /* CustomImageView.swift */; };
+		F38249B125C79D0200E6B92E /* CustomImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249B025C79D0200E6B92E /* CustomImageViewModel.swift */; };
+		F38249B225C79D0200E6B92E /* CustomImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249B025C79D0200E6B92E /* CustomImageViewModel.swift */; };
+		F38249B425C7F73600E6B92E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249B325C7F73600E6B92E /* APIService.swift */; };
+		F38249B525C7F73600E6B92E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249B325C7F73600E6B92E /* APIService.swift */; };
+		F38249B725CA235300E6B92E /* ImageServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249B625CA235300E6B92E /* ImageServiceError.swift */; };
+		F38249B825CA235300E6B92E /* ImageServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249B625CA235300E6B92E /* ImageServiceError.swift */; };
+		F38249BD25CA9A5200E6B92E /* EmployeeListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249BC25CA9A5200E6B92E /* EmployeeListViewModelTests.swift */; };
+		F38249BF25CA9AC800E6B92E /* MockEmployeesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38249BE25CA9AC800E6B92E /* MockEmployeesService.swift */; };
+		F3E8FA9125CC00E300010FFF /* imageDataFlow.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E8FA8E25CC00E300010FFF /* imageDataFlow.png */; };
+		F3E8FA9225CC00E300010FFF /* achitecture.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E8FA8F25CC00E300010FFF /* achitecture.png */; };
+		F3E8FA9325CC00E300010FFF /* employessListDataFlow.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E8FA9025CC00E300010FFF /* employessListDataFlow.png */; };
+		F3E8FAA125CC6A3F00010FFF /* EmployeeListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8FA9E25CC6A3F00010FFF /* EmployeeListResponse.swift */; };
+		F3E8FAA225CC6A3F00010FFF /* EmployeeListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8FA9E25CC6A3F00010FFF /* EmployeeListResponse.swift */; };
+		F3E8FAA325CC6A3F00010FFF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8FA9F25CC6A3F00010FFF /* Team.swift */; };
+		F3E8FAA425CC6A3F00010FFF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8FA9F25CC6A3F00010FFF /* Team.swift */; };
+		F3E8FAA525CC6A3F00010FFF /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8FAA025CC6A3F00010FFF /* Employee.swift */; };
+		F3E8FAA625CC6A3F00010FFF /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8FAA025CC6A3F00010FFF /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +66,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F34349F925CB2BA500312F72 /* iu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iu.png; sourceTree = "<group>"; };
+		F34349FC25CB2E9600312F72 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3434A0625CBA80800312F72 /* CustomImageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageViewModelTests.swift; sourceTree = "<group>"; };
+		F3434A0825CBB05800312F72 /* MockImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageService.swift; sourceTree = "<group>"; };
 		F382495B25C4F16C00E6B92E /* EmployeeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F382495E25C4F16C00E6B92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F382496025C4F16C00E6B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F382496225C4F16C00E6B92E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F382496425C4F16F00E6B92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F382496725C4F16F00E6B92E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F382496A25C4F16F00E6B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +80,26 @@
 		F382497125C4F16F00E6B92E /* EmployeeListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F382497525C4F16F00E6B92E /* EmployeeListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListTests.swift; sourceTree = "<group>"; };
 		F382497725C4F16F00E6B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F382498B25C4FD7B00E6B92E /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		F382498E25C4FE3900E6B92E /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
+		F382499725C511DD00E6B92E /* EmployeesAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesAPIService.swift; sourceTree = "<group>"; };
+		F382499A25C5182900E6B92E /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		F382499E25C51DA000E6B92E /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
+		F38249A225C5257200E6B92E /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+		F38249A525C526CE00E6B92E /* EmployeeListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListRow.swift; sourceTree = "<group>"; };
+		F38249A825C5425E00E6B92E /* OnDiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDiskCache.swift; sourceTree = "<group>"; };
+		F38249AB25C79BF500E6B92E /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		F38249B025C79D0200E6B92E /* CustomImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageViewModel.swift; sourceTree = "<group>"; };
+		F38249B325C7F73600E6B92E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F38249B625CA235300E6B92E /* ImageServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceError.swift; sourceTree = "<group>"; };
+		F38249BC25CA9A5200E6B92E /* EmployeeListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModelTests.swift; sourceTree = "<group>"; };
+		F38249BE25CA9AC800E6B92E /* MockEmployeesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEmployeesService.swift; sourceTree = "<group>"; };
+		F3E8FA8E25CC00E300010FFF /* imageDataFlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imageDataFlow.png; path = ../../../../../Desktop/imageDataFlow.png; sourceTree = "<group>"; };
+		F3E8FA8F25CC00E300010FFF /* achitecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = achitecture.png; path = ../../../../../Desktop/achitecture.png; sourceTree = "<group>"; };
+		F3E8FA9025CC00E300010FFF /* employessListDataFlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = employessListDataFlow.png; path = ../../../../../Desktop/employessListDataFlow.png; sourceTree = "<group>"; };
+		F3E8FA9E25CC6A3F00010FFF /* EmployeeListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListResponse.swift; sourceTree = "<group>"; };
+		F3E8FA9F25CC6A3F00010FFF /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		F3E8FAA025CC6A3F00010FFF /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F34349EF25CB29B500312F72 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F38249BE25CA9AC800E6B92E /* MockEmployeesService.swift */,
+				F3434A0825CBB05800312F72 /* MockImageService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F34349F825CB2B6200312F72 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F38249BC25CA9A5200E6B92E /* EmployeeListViewModelTests.swift */,
+				F3434A0625CBA80800312F72 /* CustomImageViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F382495225C4F16C00E6B92E = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +159,20 @@
 		F382495D25C4F16C00E6B92E /* EmployeeList */ = {
 			isa = PBXGroup;
 			children = (
-				F382495E25C4F16C00E6B92E /* AppDelegate.swift */,
+				F38249AE25C79C2F00E6B92E /* Utils */,
+				F38249AF25C79C7700E6B92E /* Persistence */,
+				F382498A25C4FD6500E6B92E /* Services */,
+				F3E8FA9625CC69FF00010FFF /* Models */,
+				F382499D25C51D8E00E6B92E /* ViewModels */,
+				F38249A125C5255C00E6B92E /* Views */,
+				F382498725C4F8DD00E6B92E /* Resources */,
 				F382496025C4F16C00E6B92E /* SceneDelegate.swift */,
-				F382496225C4F16C00E6B92E /* ContentView.swift */,
 				F382496425C4F16F00E6B92E /* Assets.xcassets */,
+				F382495E25C4F16C00E6B92E /* AppDelegate.swift */,
 				F382496925C4F16F00E6B92E /* LaunchScreen.storyboard */,
 				F382496C25C4F16F00E6B92E /* Info.plist */,
 				F382496625C4F16F00E6B92E /* Preview Content */,
+				F34349FC25CB2E9600312F72 /* README.md */,
 			);
 			path = EmployeeList;
 			sourceTree = "<group>";
@@ -101,10 +188,80 @@
 		F382497425C4F16F00E6B92E /* EmployeeListTests */ = {
 			isa = PBXGroup;
 			children = (
+				F34349EF25CB29B500312F72 /* Mocks */,
 				F382497525C4F16F00E6B92E /* EmployeeListTests.swift */,
+				F34349F825CB2B6200312F72 /* ViewModels */,
 				F382497725C4F16F00E6B92E /* Info.plist */,
 			);
 			path = EmployeeListTests;
+			sourceTree = "<group>";
+		};
+		F382498725C4F8DD00E6B92E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3E8FA8F25CC00E300010FFF /* achitecture.png */,
+				F3E8FA9025CC00E300010FFF /* employessListDataFlow.png */,
+				F3E8FA8E25CC00E300010FFF /* imageDataFlow.png */,
+				F34349F925CB2BA500312F72 /* iu.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F382498A25C4FD6500E6B92E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F382499725C511DD00E6B92E /* EmployeesAPIService.swift */,
+				F382499A25C5182900E6B92E /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F382499D25C51D8E00E6B92E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F382499E25C51DA000E6B92E /* EmployeeListViewModel.swift */,
+				F38249B025C79D0200E6B92E /* CustomImageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F38249A125C5255C00E6B92E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F38249A225C5257200E6B92E /* EmployeeListView.swift */,
+				F38249A525C526CE00E6B92E /* EmployeeListRow.swift */,
+				F38249AB25C79BF500E6B92E /* CustomImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F38249AE25C79C2F00E6B92E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F382498E25C4FE3900E6B92E /* APIServiceError.swift */,
+				F38249B625CA235300E6B92E /* ImageServiceError.swift */,
+				F382498B25C4FD7B00E6B92E /* APIRequest.swift */,
+				F38249B325C7F73600E6B92E /* APIService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F38249AF25C79C7700E6B92E /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F38249A825C5425E00E6B92E /* OnDiskCache.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F3E8FA9625CC69FF00010FFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3E8FA9E25CC6A3F00010FFF /* EmployeeListResponse.swift */,
+				F3E8FA9F25CC6A3F00010FFF /* Team.swift */,
+				F3E8FAA025CC6A3F00010FFF /* Employee.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +345,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34349FD25CB2E9600312F72 /* README.md in Resources */,
+				F3E8FA9325CC00E300010FFF /* employessListDataFlow.png in Resources */,
+				F34349FA25CB2BA500312F72 /* iu.png in Resources */,
+				F3E8FA9225CC00E300010FFF /* achitecture.png in Resources */,
 				F382496B25C4F16F00E6B92E /* LaunchScreen.storyboard in Resources */,
+				F3E8FA9125CC00E300010FFF /* imageDataFlow.png in Resources */,
 				F382496825C4F16F00E6B92E /* Preview Assets.xcassets in Resources */,
 				F382496525C4F16F00E6B92E /* Assets.xcassets in Resources */,
 			);
@@ -198,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34349FB25CB2BA500312F72 /* iu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +371,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38249B725CA235300E6B92E /* ImageServiceError.swift in Sources */,
+				F38249A925C5425E00E6B92E /* OnDiskCache.swift in Sources */,
+				F38249B425C7F73600E6B92E /* APIService.swift in Sources */,
 				F382495F25C4F16C00E6B92E /* AppDelegate.swift in Sources */,
+				F38249A325C5257200E6B92E /* EmployeeListView.swift in Sources */,
+				F382498F25C4FE3900E6B92E /* APIServiceError.swift in Sources */,
 				F382496125C4F16C00E6B92E /* SceneDelegate.swift in Sources */,
-				F382496325C4F16C00E6B92E /* ContentView.swift in Sources */,
+				F382499825C511DD00E6B92E /* EmployeesAPIService.swift in Sources */,
+				F3E8FAA125CC6A3F00010FFF /* EmployeeListResponse.swift in Sources */,
+				F382498C25C4FD7B00E6B92E /* APIRequest.swift in Sources */,
+				F382499B25C5182900E6B92E /* ImageService.swift in Sources */,
+				F3E8FAA525CC6A3F00010FFF /* Employee.swift in Sources */,
+				F382499F25C51DA000E6B92E /* EmployeeListViewModel.swift in Sources */,
+				F3E8FAA325CC6A3F00010FFF /* Team.swift in Sources */,
+				F38249B125C79D0200E6B92E /* CustomImageViewModel.swift in Sources */,
+				F38249A625C526CE00E6B92E /* EmployeeListRow.swift in Sources */,
+				F38249AC25C79BF500E6B92E /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +396,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F382497625C4F16F00E6B92E /* EmployeeListTests.swift in Sources */,
+				F3434A0725CBA80800312F72 /* CustomImageViewModelTests.swift in Sources */,
+				F38249AD25C79BF500E6B92E /* CustomImageView.swift in Sources */,
+				F38249A425C5257200E6B92E /* EmployeeListView.swift in Sources */,
+				F382499925C511DD00E6B92E /* EmployeesAPIService.swift in Sources */,
+				F382499C25C5182900E6B92E /* ImageService.swift in Sources */,
+				F382499025C4FE3900E6B92E /* APIServiceError.swift in Sources */,
+				F3E8FAA425CC6A3F00010FFF /* Team.swift in Sources */,
+				F3E8FAA225CC6A3F00010FFF /* EmployeeListResponse.swift in Sources */,
+				F38249AA25C5425E00E6B92E /* OnDiskCache.swift in Sources */,
+				F38249B525C7F73600E6B92E /* APIService.swift in Sources */,
+				F38249BF25CA9AC800E6B92E /* MockEmployeesService.swift in Sources */,
+				F3E8FAA625CC6A3F00010FFF /* Employee.swift in Sources */,
+				F38249A025C51DA000E6B92E /* EmployeeListViewModel.swift in Sources */,
+				F38249A725C526CE00E6B92E /* EmployeeListRow.swift in Sources */,
+				F38249B825CA235300E6B92E /* ImageServiceError.swift in Sources */,
+				F38249BD25CA9A5200E6B92E /* EmployeeListViewModelTests.swift in Sources */,
+				F382498D25C4FD7B00E6B92E /* APIRequest.swift in Sources */,
+				F38249B225C79D0200E6B92E /* CustomImageViewModel.swift in Sources */,
+				F3434A0925CBB05800312F72 /* MockImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
