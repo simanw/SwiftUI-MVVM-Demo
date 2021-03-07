@@ -31,7 +31,7 @@ final class Cache {
                 throw ImageProcessingError.invalidFilePath(key)
             }
             try jpeg.write(to: filePath, options: .atomic)            
-            //print("Successfully stored image in disk for key \(key)")
+            // print("Successfully stored image in disk for key \(key)")
             return CurrentValueSubject<Bool, Error>(true).eraseToAnyPublisher()
         } catch let error {
             return Fail<Bool, Error>(error: error).eraseToAnyPublisher()
@@ -43,7 +43,7 @@ final class Cache {
             guard let filePath = buildFilePath(forKey: key) else {
                 throw ImageProcessingError.invalidFilePath(key)
             }
-            guard exits(forKey: key) else {
+            guard exists(forKey: key) else {
                 throw ImageProcessingError.notFoundInDisk(filePath.path)
             }
             guard let fileData = self.fileManager.contents(atPath: filePath.path) else {
@@ -55,10 +55,10 @@ final class Cache {
         }
     }
     
-    func exits(forKey key: String) -> Bool {
+    func exists(forKey key: String) -> Bool {
         if let filePath = buildFilePath(forKey: key) {
             let res = self.fileManager.fileExists(atPath: filePath.path)
-            //print("onDiskCache test if image exists -> \(res) for key \(filePath.path)")
+            // print("onDiskCache test if image exists -> \(res) for key \(filePath.path)")
             return res
         } else {
             return false

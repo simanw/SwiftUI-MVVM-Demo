@@ -12,6 +12,8 @@ struct EmployeeListView: View {
     @ObservedObject private(set) var employeeListViewModel: EmployeeListViewModel
     
     var body: some View {
+        // We need to return a row wrapped up in a navigation button to allow user to tap on it
+        // Then trigger a destination for that button
         NavigationView {
             List {
                 ForEach(employeeListViewModel.sortedTeams, id: \.name) { team in
@@ -25,9 +27,10 @@ struct EmployeeListView: View {
             .alert(isPresented: $employeeListViewModel.isErrorShown, content: { () -> Alert in
                 Alert(title: Text("Error"), message: Text(employeeListViewModel.errorMessage))
             })
-            .navigationBarTitle(Text("Employees"))                
+            .navigationBarTitle(Text("Employees"), displayMode: .inline)
         }
         .onAppear(perform: {self.employeeListViewModel.update()})
+        //.onAppear(perform: {self.employeeListViewModel.objectWillChange.send()})
     }
 }
 

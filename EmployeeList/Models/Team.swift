@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Team {
+struct Team: Codable {
     var name: String
     var employees: [Employee] = []
 }

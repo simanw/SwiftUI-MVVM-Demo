@@ -89,7 +89,7 @@ final class CustomImageViewModel: ObservableObject {
         cancellables["web"] = webStream
     }
     
-    // MARK: Only save the image to disk the first time the image is downloaded from the web
+    // Only save the image to disk the first time the image is downloaded from the web
     func saveToDisk(_ image: UIImage, _ key: String) {
 
         let publisher = diskSaveSubject.flatMap { _ -> AnyPublisher<Bool, Error> in

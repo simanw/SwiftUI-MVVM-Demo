@@ -21,16 +21,15 @@ struct CustomImageView: View {
             .onAppear(perform: { self.customImageViewModel.update() })
     }
 
-    private var content: AnyView {
-        return AnyView(Image(uiImage: self.customImageViewModel.image)
-            .resizable()
-            .frame(width: 50, height: 50)
-            .cornerRadius(25))
+    private var content: Image {
+        return Image(uiImage: self.customImageViewModel.image)
+                .resizable()
+                
     }
 }
 
 struct CustomImageView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomImageView(customImageViewModel: .init(imageURL: "https://s3.amazonaws.com/sq-mobile-interview/photos/5095a907-abc9-4734-8d1e-0eeb2506bfa8/small.jpg"))
+        CustomImageView(customImageViewModel: .init(imageURL: "https://s3.amazonaws.com/sq-mobile-interview/photos/5095a907-abc9-4734-8d1e-0eeb2506bfa8/large.jpg"))
     }
 }

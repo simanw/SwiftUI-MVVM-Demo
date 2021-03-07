@@ -39,9 +39,9 @@ struct EmployeeListRequest: APIRequestType {
     typealias ModelType = EmployeeListResponse
     
     var path: String
-    var method: String {return "GET"}
-    var headers: [String: String]? {return ["Content-Type": "application/json"]}
-    var queryItems: [URLQueryItem]? {return []}
+    var method: String { return "GET" }
+    var headers: [String: String]? { return ["Content-Type": "application/json"] }
+    var queryItems: [URLQueryItem]?
     func body() throws -> Data? {
         return Data()
     }
@@ -51,11 +51,25 @@ struct ImageRequest: APIRequestType {
     typealias ModelType = Data
     
     var path: String
-    var method: String {return "GET"}
-    var headers: [String : String]? {return [:]}
-    var queryItems: [URLQueryItem]? {return []}
+    var method: String { return "GET" }
+    var headers: [String : String]?
+    var queryItems: [URLQueryItem]?
     func body() throws -> Data? {
         return Data()
     }
 }
 
+struct EmployeePostRequest: APIRequestType {
+    
+    typealias ModelType = Employee
+    
+    var employee: ModelType
+    var path: String
+    var method: String { return "POST" }
+    var headers: [String : String]?
+    var queryItems: [URLQueryItem]?
+    func body() throws -> Data? {
+        let encoder = JSONEncoder()
+        return try encoder.encode(employee)
+    }
+}

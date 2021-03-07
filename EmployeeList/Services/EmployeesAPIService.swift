@@ -14,7 +14,7 @@ final class EmployeesAPIService: APIServiceType {
     internal let baseURL: String
     internal let session: URLSession = URLSession.shared
     internal let bgQueue: DispatchQueue = DispatchQueue.main
-    
+
     init(baseURL: String =  "https://s3.amazonaws.com/sq-mobile-interview/") {
         self.baseURL = baseURL
     }
@@ -25,13 +25,13 @@ final class EmployeesAPIService: APIServiceType {
             return session.dataTaskPublisher(for: request)
                 .retry(1)
                 .tryMap {
-                    guard let code = ($0.1 as? HTTPURLResponse)?.statusCode else {
+                    guard let code = ($0.response as? HTTPURLResponse)?.statusCode else {
                         throw APIServiceError.unexpectedResponse
                     }
                     guard HTTPCodes.success.contains(code) else {
                         throw APIServiceError.httpError(code)
                     }
-                    return $0.0  // Pass data to downstream publishers
+                    return $0.data  // Pass data to downstream publishers
                 }
                 .decode(type: Request.ModelType.self, decoder: JSONDecoder())
                 .mapError {_ in APIServiceError.parseError}

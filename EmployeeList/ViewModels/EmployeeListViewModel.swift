@@ -20,6 +20,7 @@ final class EmployeeListViewModel: ObservableObject {
     // Publish values on-demand by calling the send() method
     func update() {
         onAppearSubject.send(())
+        //objectWillChange.send()
     }
     
     private var employees: [Employee] = []

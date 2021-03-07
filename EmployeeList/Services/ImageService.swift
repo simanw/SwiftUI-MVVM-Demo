@@ -53,15 +53,15 @@ final class ImageService: ImageServiceType {
     }
     
     func loadFromDisk(forKey key: String) -> AnyPublisher<Data, Error> {
-        return self.cache.loadFromDisk(forKey: key)
+        cache.loadFromDisk(forKey: key)
     }
     
     func existsInDisk(_ key: String) -> Bool {
-        return self.cache.exits(forKey: key)
+        cache.exists(forKey: key)
     }
     
     func saveToDisk(_ image: UIImage, forKey key: String) -> AnyPublisher<Bool, Error> {
-        return self.cache.saveToDisk(image: image, forKey: key)
+        cache.saveToDisk(image: image, forKey: key)
     }
 }
 
